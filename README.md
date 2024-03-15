@@ -1,3 +1,3 @@
 # Terraform
 
-- This is a collection of my Terraform learning resources.
+- This is a collection of my Terraform learning resources/content.
