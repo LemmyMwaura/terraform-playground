@@ -1,3 +1,10 @@
+# Ignore .terraform directories and contents
+**/.terraform/*
 
-.terraform/*
+# Ignore any files or directories with names ending with .tfstate or .tfstate.*
+**/*.tfstate*
 *.tfstate*
+
+# Ignore the service-account directory and its contents
+service-account/
+.DS_Store
