@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "4.51.0"
     }
   }
@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   credentials = file("./service-account/secrets.json")
 
-  project = "<PROJECT_ID>"
+  project = "playground-417313"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
